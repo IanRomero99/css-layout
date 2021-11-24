@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    /* contenidos */
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    /* contenidos */
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    /* contenidos */
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    /* contenidos */
+    width: 25%;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    /* reglas */
+}
